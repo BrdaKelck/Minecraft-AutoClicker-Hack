@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build-autoclicker",
+        "type": "shell",
+        "command": "g++",
+        "args": [
+          "-o", "AutoClicker.exe",
+          "main.cpp",
+          "-mwindows"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": []
+      }
+    ]
+  }
+  
